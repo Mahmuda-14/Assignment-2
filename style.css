@@ -321,6 +321,8 @@
  .fourth-sect-container {
      display: flex;
      justify-content: space-around;
+     height: 685px;
+     ;
  }
 
  .four-content {
@@ -355,11 +357,82 @@
      margin-left: 118px;
 
  }
- .four-2{
-    position: relative;
-     bottom:195px;
-     width:242px;
-     height:277px;
-   
+
+ .four-2 {
+     position: relative;
+     bottom: 195px;
+     width: 242px;
+     height: 277px;
+
+
+ }
+
+
+ /* button section */
+
+ section>div>ul {
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     margin: 25px 25px 15px 25px;
+
+ }
+
+ .btn-fi {
+     width: 192px;
+     height: 62px;
+     border-radius: 50px;
+     background: white;
+     border: 2px solid red;
+     margin-top: 39px;
+ }
+
+ .btn-fi :hover {
+     background-color: transparent;
+     color: #F948B2;
+ }
+
+ .b-f {
+     color: #0B0223;
+     padding: 30px 0px;
+     font-size: 12px;
+     font-weight: 100;
+
+ }
+
+ .button-five {
+     width: 29px;
+     height: 14px;
+     border-radius: 50px;
+
+
+ }
+
+ .second {
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     /* margin-left: 200px;
+     margin-right: 18px; */
+     margin: 0px 25px 25px 200px;
+ }
+
+ .li-2 {
+     margin-left: 75px;
+     margin-right: 40px;
+ }
+
+ /* footer */
+ .foot {
+    width: 1542px;
+    height: 464px;
+     background: #0B0223;
+     color: #FFF;
+ }
+
+ footer>section>div>ul {
+     display: flex;
+     list-style: none;
+     
 
  }
