@@ -383,13 +383,18 @@
      height: 62px;
      border-radius: 50px;
      background: white;
-     border: 2px solid red;
+     
      margin-top: 39px;
  }
 
- .btn-fi :hover {
-     background-color: transparent;
-     color: #F948B2;
+ .btn-fi:hover {
+    color: #F948B2;
+    background-color: #efedec;
+    border: 2px solid red;
+    opacity: 1;
+    transition: 0.3s;
+   
+    
  }
 
  .b-f {
