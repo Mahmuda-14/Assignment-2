@@ -55,9 +55,7 @@
  .menu-bar {
      color: #3C354F;
      text-align: center;
-
      font-size: 18px;
-
      font-weight: 500;
  }
 
@@ -108,10 +106,6 @@
      height: 500px;
      background-position: left;
      background-repeat: no-repeat;
-   
-  
-
-
  }
 
  .banner-content h3 {
@@ -155,7 +149,7 @@
  }
 
  .banner-content .blue {
-     padding:  7px 30px 13px 30px;
+     padding: 7px 30px 13px 30px;
      border-radius: 48px;
      background: #4EC5F7;
      margin: 24px 0px 0px 9px;
@@ -171,4 +165,155 @@
      margin-top: 34px;
      margin-left: 200px;
      margin: 34px 151px 0px 10px;
+ }
+
+ .second-ban-container {
+     display: flex;
+     justify-content: space-around;
+     background-color: #faecf3;
+     margin-top: -3px;
+
+ }
+
+ .second-img {
+     margin: 0px;
+     padding: 0px;
+     width: 868px;
+     height: 489px;
+
+ }
+
+ .ss-im {
+     width: 772px;
+     height: 464px;
+     margin: 0px 42px 0px 53px;
+ }
+
+ .second-ban {
+     margin: 54px 0px 0px 0px;
+ }
+
+ .second-ban h4 {
+
+     font-size: 48px;
+     font-weight: 700;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin: 28.84px 0px 0px 118px;
+ }
+
+ .second-ban p {
+     color: #534C64;
+     font-size: 18px;
+     font-weight: 400;
+     margin: 21px 76px 18px 83px
+ }
+
+ .second-ban .second-pink {
+     padding: 9px 16px 12px 11px;
+     margin: 4px 0px 0px 208px;
+     border-radius: 48px;
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+     color: #FFF;
+     font-size: 20px;
+     font-weight: 600;
+     text-transform: uppercase;
+     border: 0px;
+
+ }
+
+ .s-1 {
+     margin-left: 174px;
+ }
+
+
+ /* third section */
+ .thr-sec {
+     margin: 100px;
+ }
+
+ .thr-content {
+     margin: 0px 350px;
+ }
+
+ .thr-sec h2 {
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ .thr-1 {
+     color: #0B0223;
+
+ }
+
+ .thr-2 {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+
+ }
+
+ .thr p {
+     color: #534C64;
+     font-size: 18px;
+     font-weight: 400;
+     margin-left: 91px;
+ }
+
+ .third-img {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     margin: 36px 143px 0px 143px;
+
+ }
+
+ .thr-img-1 {
+     margin-left: 32px;
+ }
+
+
+ .thr-img {
+     width: 231px;
+     height: 278px;
+
+ }
+
+ .thr-btn {
+     background-color: #d4089d;
+     cursor: pointer;
+     border: 0px;
+     border-radius: 5px;
+     padding:5px;
+
+
+
+ }
+
+ .thr-btn:hover {
+
+     background-color: #9c7575;
+
+ }
+
+ .thr-img-1 .watch {
+     position: relative;
+     width: 48px;
+     height: 48px;
+     border-radius: 8px;
+     color: rgb(238, 231, 231);
+     position: relative;
+     bottom: 269px;
+     cursor: pointer;
+     margin:0px 0px 0px 80px;
+
+ }
+ 
+ .thr-img-1 .watch p{
+    margin:8px 4px 94px 0px;
+  
+
  }
