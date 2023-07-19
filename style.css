@@ -102,11 +102,14 @@
  }
 
  .banner-content {
-     background-image: url("/images/Group\ 14.png");
+     background-image: url("../Assignment-2/images/group.png");
+     /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
      width: 1501.5px;
      height: 500px;
      background-position: left;
      background-repeat: no-repeat;
+   
+  
 
 
  }
