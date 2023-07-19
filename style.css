@@ -239,7 +239,7 @@
  }
 
  .thr-sec h2 {
-     font-size: 48px;
+     font-size: 41px;
      font-weight: 700;
  }
 
@@ -287,7 +287,7 @@
      cursor: pointer;
      border: 0px;
      border-radius: 5px;
-     padding:5px;
+     padding: 5px;
 
 
 
@@ -305,15 +305,61 @@
      height: 48px;
      border-radius: 8px;
      color: rgb(238, 231, 231);
-     position: relative;
      bottom: 269px;
      cursor: pointer;
-     margin:0px 0px 0px 80px;
+     margin: 0px 0px 0px 80px;
 
  }
- 
- .thr-img-1 .watch p{
-    margin:8px 4px 94px 0px;
-  
+
+ .thr-img-1 .watch p {
+     margin: 8px 4px 94px 0px;
+
+
+ }
+
+ /* fourth section */
+ .fourth-sect-container {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .four-content {
+     margin-left: 379px;
+     width: 353px;
+     height: 300px;
+
+ }
+
+ .four-content h2 {
+     font-size: 41px;
+     font-weight: 700;
+
+ }
+
+ .four-content h2 .four-h {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .four-content p {
+     color: #534C64;
+     font-size: 18px;
+ }
+
+ .four-1 {
+     width: 546.8px;
+     height: 548px;
+     border-radius: 8px;
+     margin-left: 118px;
+
+ }
+ .four-2{
+    position: relative;
+     bottom:195px;
+     width:242px;
+     height:277px;
+   
 
  }
