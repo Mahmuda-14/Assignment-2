@@ -9,10 +9,10 @@
  nav {
      display: flex;
      justify-content: space-around;
-     /* align-items: center; */
+    
      background: #FFF;
      box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-     /* width: 100%; */
+    
 
  }
 
@@ -101,7 +101,7 @@
 
  .banner-content {
      background-image: url("../Assignment-2/images/group.png");
-     /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+
      width: 1501.5px;
      height: 500px;
      background-position: left;
@@ -277,7 +277,7 @@
      margin-right: 15px;
      width: 249.5px;
      height: 298.767px;
-     
+
  }
 
  .play {
@@ -293,8 +293,8 @@
  .thr-img .img-main {
      width: 100%;
      height: auto;
-     
-    
+
+
  }
 
 
@@ -327,7 +327,7 @@
      border-radius: 5px;
  }
 
-.button:hover {
+ .button:hover {
      background-color: #020202;
      color: #cec6c6;
  }
@@ -413,18 +413,12 @@
 
  }
 
- .b-f {
-     color: #0B0223;
-     padding: 30px 0px;
-     font-size: 12px;
-     font-weight: 100;
-
- }
 
  .button-five {
      width: 29px;
      height: 14px;
      border-radius: 50px;
+
 
 
  }
@@ -433,8 +427,6 @@
      list-style: none;
      display: grid;
      grid-template-columns: repeat(4, 1fr);
-     /* margin-left: 200px;
-     margin-right: 18px; */
      margin: 0px 25px 25px 200px;
  }
 
@@ -500,6 +492,16 @@
 
      nav {
          margin: 0px;
+         background: #FFF;
+         box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+     }
+
+     .third-img {
+         display: grid;
+         grid-template-columns: repeat(1, 4fr);
+         margin: 0px;
+         width: 280.4px;
+         height: 1483.07px;
      }
 
      nav>div>ul {
@@ -510,17 +512,58 @@
 
      }
 
-     .btn-primary {
-         grid-template-rows: repeat(3, 1fr);
+     .thr-content {
+         margin-left: 13px;
+         height: 293.833px;
+         width: 334px;
+     }
 
+
+     .banner-content {
+         width: 644px;
+         height: 555px;
+
+         margin-left: -166px;
+     }
+
+
+     .ss-im {
+         width: 464px;
+         height: 389px;
+         margin-left: 17px;
      }
 
      nav,
      .banner-container,
      .second-ban-container {
          flex-direction: column;
-         /* flex-wrap: wrap; */
+        
      }
+
+     .fourth-sect-container {
+         display: flex;
+         flex-direction: column;
+         height: 756px;
+         width: 516.8px;
+     }
+
+     .four-content {
+         margin-left: 87px;
+     }
+
+     .four-1 {
+         width: 367.8px;
+         height: 370px;
+         margin-left: 80px;
+     }
+
+     .four-2 {
+         width: 223px;
+         height: 236px;
+     }
+
+
+
 
      .banner-content {
 
